@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+@media(min-width:601px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-gap: 15px;
+        grid-auto-rows: minmax(200px, auto);
+        grid-auto-flow:dense;
+        padding: 10px;
+    }}
+
+    @media(min-width:1200px){
+        .grid-layout{
+            display: grid;
+            grid-template-columns: 160px 160px 160px 160px 160px 160px;
+            grid-gap: 15px;
+            grid-auto-rows: minmax(200px, auto);
+            grid-auto-flow:dense;
+            padding: 10px;
+        }}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #929796;
+    background-color: #eea5b5;
+}
+
+ .span-2x2 {
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    border-radius: 20px 20px 20px 60px;
+    box-shadow: 0px 3px 12px;
+}
+.span-2x2-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    border-radius: 60px 20px 20px 20px;
+    box-shadow: 0px 3px 12px;
+}
+
+.span-2x4 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+    border-radius: 20px 20px 60px 20px;
+    box-shadow: 0px 3px 12px;
+    background-image: url("images/item2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.span-2x4:hover{
+    background-image: url("images/item2_hover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.span-2x6 {
+    grid-column-end: span 2;
+    grid-row-end: span 3;
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.span-4x2 {
+    grid-column-end: span 4;
+    grid-row-end: span 1;
+    border-radius: 20px 20px 20px 60px;
+    box-shadow: 0px 3px 12px;
+}
+
+#profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+@media(max-width:600px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(200px, auto);
+        grid-auto-flow:dense;
+        padding: 10px;
+    }
+    .span-4x2 {
+        grid-column-end: span 2;
+        grid-row-end: span 1;
+        border-radius: 20px 20px 20px 60px;
+        box-shadow: 0px 3px 12px;
+    }
+}
+    
