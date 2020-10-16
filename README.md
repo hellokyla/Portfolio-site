@@ -1,2 +1,2 @@
 # Portfolio-site
-UXUI Portfolio sit for Kyla Beals
+UXUI Portfolio site for Kyla Beals
