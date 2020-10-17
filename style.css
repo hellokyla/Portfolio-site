@@ -33,6 +33,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-width: 300px;
+    max-width: 350px;
 }
 
 .span-2x6 {
@@ -42,7 +44,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    max-width: 350px;
+    /* max-width: 350px; */
 }
 .grid-item-1 h1{
     text-align: center;
@@ -72,17 +74,17 @@ body {
 }
 
 .span-2x4 {
-    display:flex;
+    /* display:flex; */
     grid-column-end: span 2;
     grid-row-end: span 2;
     border-radius: 20px 20px 60px 20px;
     box-shadow: 0px 3px 12px grey;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 
 }
 
 .grid-item-2{
-    background-image: url("images/item2.png");
+    background-image: url("images/card_lnfy.png");
 }
 .grid-item-3{
     background-image: url("images/card_wili.png");
@@ -122,6 +124,7 @@ body {
     border-radius: 20px 20px 20px 60px;
     box-shadow: 0px 3px 12px grey;
     justify-content: flex-end;
+    max-width: 680px;
 }
 
 #profile{
@@ -177,8 +180,9 @@ h2{
 h3{
     display: table;
     padding: 7px;
-    background-color: white;
-    font-weight: 100;
+    background-color: lightpink;
+    color:white;
+    font-weight: 300;
     font-size: 20px;
     text-align: center;
     margin-right: 0;
@@ -186,10 +190,15 @@ h3{
 
 }
 
-/* .proTitle{
+.proTitle{
     display:flex;
-    justify-content: flex-end;
-}    */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}   
+.proTitle h3{
+    margin: 5px;
+}
 
 h6{
     display: table;
