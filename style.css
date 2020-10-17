@@ -151,9 +151,9 @@ h3{
     text-align: center;
 }
 
-.grid-item h3{
-    float: right;
-}    
+.proTitle{
+    position: absolute;
+}   
 
 h6{
     display: table;
