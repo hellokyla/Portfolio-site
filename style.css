@@ -177,7 +177,7 @@ h2{
     margin-bottom: 10px;
 }
 
-h3{
+.project{
     display: table;
     padding: 7px;
     background-color: lightpink;
@@ -186,17 +186,27 @@ h3{
     font-size: 20px;
     text-align: center;
     margin-right: 0;
-    /* justify-content: flex-end; */
-
 }
 
-.proTitle{
+.category{
+    display: table;
+    padding: 5px;
+    background-color: lightpink;
+    color:white;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin-right: 0;
+}
+
+.cardTitle{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }   
-.proTitle h3{
+.cardTitle p{
     margin: 5px;
 }
 
