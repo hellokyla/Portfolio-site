@@ -84,7 +84,8 @@ body {
 }
 
 .grid-item-2{
-    background-image: url("images/card_lnfy.png");
+    background-image: url("images/card_lnfy.png")
+    
 }
 .grid-item-3{
     background-image: url("images/card_wili.png");
@@ -177,6 +178,9 @@ h2{
     margin-bottom: 10px;
 }
 
+a{
+    text-decoration: none;
+}
 .project{
     display: table;
     padding: 7px;
