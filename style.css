@@ -37,12 +37,20 @@ body {
     grid-row-end: span 1;
     border-radius: 20px 20px 20px 60px;
     box-shadow: 0px 3px 12px grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
 }
 .span-2x2-2 {
     grid-column-end: span 2;
     grid-row-end: span 1;
     border-radius: 60px 20px 20px 20px;
     box-shadow: 0px 3px 12px grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
 }
 
 .grid-item-3{
@@ -50,6 +58,7 @@ body {
 }
 
 .span-2x4 {
+    display:flex;
     grid-column-end: span 2;
     grid-row-end: span 2;
     border-radius: 20px 20px 60px 20px;
@@ -57,14 +66,40 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display:flex;
+    justify-content: flex-end;
+
 }
 
 .grid-item-2{
     background-image: url("images/item2.png");
 }
 
+.grid-item-3{
+    background-image: url("images/card_wili.png");
+}
+
+.grid-item-4{
+    background-image: url("images/card_xmas.png");
+}
+.grid-item-5{
+    background-image: url("images/card_ftc.png");
+}
+.grid-item-6{
+    background-image: url("images/card_huli.png");
+}
+.grid-item-7{
+    background-image: url("images/card_tgthr.png");
+}
+.grid-item-8{
+    background-image: url("images/card_mp.png");
+}
+.grid-item-9{
+    background-image: url("images/card_val.png");
+}
+
 /* .span-2x4:hover{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
     background-image: url("images/item2_hover.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,6 +114,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
 }
 .grid-item-1 h1{
     text-align: center;
@@ -95,6 +134,10 @@ body {
     grid-row-end: span 1;
     border-radius: 20px 20px 20px 60px;
     box-shadow: 0px 3px 12px grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
 }
 
 #profile{
@@ -117,6 +160,10 @@ body {
         grid-row-end: span 1;
         border-radius: 20px 20px 20px 60px;
         box-shadow: 0px 3px 12px grey;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: flex-end;
     }
 }
 
@@ -133,7 +180,7 @@ h1{
     
 h2{
     display: table;
-    padding: 7px;
+    padding: 7px 14px 7px 7px;
     background-color: white;
     font-weight: 100;
     font-size: 30px;
@@ -150,11 +197,15 @@ h3{
     font-weight: 100;
     font-size: 20px;
     text-align: center;
+    margin-right: 0;
+    /* justify-content: flex-end; */
+
 }
 
-.proTitle{
+/* .proTitle{
+    display:flex;
     justify-content: flex-end;
-}   
+}    */
 
 h6{
     display: table;
