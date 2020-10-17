@@ -30,6 +30,29 @@ body {
     text-transform: lowercase;
     background-color: #eea5b5;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.span-2x6 {
+    grid-column-end: span 2;
+    grid-row-end: span 3;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+}
+.grid-item-1 h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.grid-item-1 h2{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .span-2x2 {
@@ -37,24 +60,15 @@ body {
     grid-row-end: span 1;
     border-radius: 20px 20px 20px 60px;
     box-shadow: 0px 3px 12px grey;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     justify-content: flex-end;
+    
 }
 .span-2x2-2 {
     grid-column-end: span 2;
     grid-row-end: span 1;
     border-radius: 60px 20px 20px 20px;
     box-shadow: 0px 3px 12px grey;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     justify-content: flex-end;
-}
-
-.grid-item-3{
-    background-image: url("images/");
 }
 
 .span-2x4 {
@@ -63,9 +77,6 @@ body {
     grid-row-end: span 2;
     border-radius: 20px 20px 60px 20px;
     box-shadow: 0px 3px 12px grey;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     justify-content: flex-end;
 
 }
@@ -73,11 +84,9 @@ body {
 .grid-item-2{
     background-image: url("images/item2.png");
 }
-
 .grid-item-3{
     background-image: url("images/card_wili.png");
 }
-
 .grid-item-4{
     background-image: url("images/card_xmas.png");
 }
@@ -106,37 +115,12 @@ body {
     background-position: center;
   } */
 
-.span-2x6 {
-    grid-column-end: span 2;
-    grid-row-end: span 3;
-    background-color: #f2f2f2;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: flex-end;
-}
-.grid-item-1 h1{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 15px;
-}
-.grid-item-1 h2{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 10px;
-}
+
 .span-4x2 {
     grid-column-end: span 4;
     grid-row-end: span 1;
     border-radius: 20px 20px 20px 60px;
     box-shadow: 0px 3px 12px grey;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     justify-content: flex-end;
 }
 
