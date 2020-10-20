@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #000000 84%;
     display: flex;
+    justify-content: center;
     /* min-width: 1050px; */
 }
 
@@ -40,7 +41,9 @@ body {
     min-width: 300px;
     max-width: 350px;
 }
-/* -----ABOUT CARD----- */
+
+/* ---------------------ABOUT CARD------------------------- */
+
 .span-2x6 {
     grid-column-end: span 2;
     grid-row-end: span 3;
@@ -57,17 +60,19 @@ body {
     border-radius: 50%;
 }
 
-/* -----PROJECT CARDS------ */
 .grid-item-1 h1{
     text-align: center;
     margin: 0 auto;
     margin-top: 15px;
 }
+
 .grid-item-1 h2{
     text-align: center;
     margin: 0 auto;
     margin-top: 10px;
 }
+
+/* --------------------PROJECT CARDS---------------------- */
 
 .span-2x2 {
     grid-column-end: span 2;
@@ -99,8 +104,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   } */
-  
-/* ------CARD IMAGES------ */
+
+.span-4x2 {
+    grid-column-end: span 4;
+    grid-row-end: span 1;
+    border-radius: 20px 20px 20px 60px;
+    box-shadow: 0px 3px 12px grey;
+    justify-content: flex-end;
+    max-width: 680px;
+}
+/* ----------------------CARD IMAGES----------------------- */
+
 .grid-item-2{
     background-image: url("images/card_lnfy.png")
 }
@@ -127,20 +141,14 @@ body {
 }
 
 
+/* --------------------------NAVIGATION-------------------------- */
 
-
-.span-4x2 {
-    grid-column-end: span 4;
-    grid-row-end: span 1;
-    border-radius: 20px 20px 20px 60px;
-    box-shadow: 0px 3px 12px grey;
-    justify-content: flex-end;
-    max-width: 680px;
-}
-/* ---------NAVIGATION---------- */
 footer{
     position: fixed;
     display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
     left:0;
     bottom:0;
     height: 75px;
@@ -152,7 +160,7 @@ footer{
 
 .nav{
     display: flex;
-    align-items: center;
+    /* flex-direction: row; */
     padding: 15px;
 }
 
@@ -169,10 +177,11 @@ footer{
     color: magenta;
     height: 75px;
     width: 10px;
-    margin: 15px;
-} */
+    margin: 15px; */
+}
 
-/* ---------TEXT/FONT FORMATTING---------- */
+/* -------------------TEXT/FONT FORMATTING---------------------- */
+
 h1{
     display: table;
     padding: 7px;
@@ -245,12 +254,15 @@ h6{
     position: absolute;
     float: right;
 }
+
 h5{
     font-weight: 300;
     text-transform: initial;
     font-size: 20px;
     text-align: center;
 }
+
+/* -------------------MOBILE---------------------- */
 
 @media(max-width:600px){
     .grid-layout{
