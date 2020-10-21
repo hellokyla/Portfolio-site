@@ -166,27 +166,52 @@ body {
 
 .resumeProfile{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 80px 100px 100px;
+    width: 750px;
+    height: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .25fr 1fr 1fr;
     grid-template-areas: 
     "space space space"
-    "name name image"
-    "button button image" ;
+    "Title Title proPic"
+    "downLoad downLoad proPic" ;
 }
-.resumeInfo{
+
+#pic{
+    display: grid;
+    grid-area: proPic;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    grid-area: Title;
+    background-color: coral;
+}
+
+#download{
+    grid-area: downLoad;
+    background-color: darkgreen;
+    /* display: grid; */
+    align-items: center;
+    justify-content: right;
+}
+
+
+/* .resumeInfo{
     margin: 0 auto;
 }
 .resumeInfo #profile{
     margin:15px;
-    grid-area: image;
+    grid-area: proPic;
 }
-.resumeName{
+.resumeInfo .resumeName{
     grid-area: name;
 }
-.mainButton{
+.resumeInfo .mainButton{
     margin: 0 auto;
     grid-area: button;
-}
+}*/
+
 .spacer{
     grid-area: space;
 }
