@@ -24,7 +24,8 @@ body {
             /* justify-content: center; */
             grid-template-columns: 160px 160px 160px 160px 160px 160px;
             grid-gap: 15px;
-            grid-auto-rows: minmax(200px, auto);
+            grid-auto-rows: 200px 200px 200px 200px 200px 80px;
+            /* grid-auto-rows: minmax(200px, auto); */
             grid-auto-flow:dense;
             padding: 10px;
     }}
@@ -178,7 +179,7 @@ footer{
     height: 75px;
     width: 10px;
     margin: 15px; 
-}*/
+} */
 
 /* -------------------TEXT/FONT FORMATTING---------------------- */
 
