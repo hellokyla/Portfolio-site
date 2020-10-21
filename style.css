@@ -166,7 +166,7 @@ body {
 
 #resumePage{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr .65fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "profile"
     "intro"
@@ -288,7 +288,22 @@ body {
 
 .education{
     grid-area: ed;
-    background-color: purple;
+    background-color: rgb(64, 160, 184);
+    display: grid;
+    grid-template-rows: .25fr 1fr 1fr;
+    grid-template-areas: 
+    "title"
+     "school1"
+     "school2";
+    padding: 15px;
+}
+.school1{
+    grid-area: school1;
+    background-color: pink;
+}
+.school2{
+    grid-area: school2;
+    background-color: rgb(153, 81, 93);
 }
 
 .other{
