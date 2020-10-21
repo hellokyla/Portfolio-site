@@ -166,7 +166,8 @@ body {
 
 #resumePage{
     display: grid;
-    grid-template-rows: 1fr .65fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "profile"
     "intro"
