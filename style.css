@@ -283,10 +283,12 @@ body {
 .job1{
     grid-area: job1;
     background-color: pink;
+    padding-top: 15px;
 }
 .job2{
     grid-area: job2;
     background-color: rgb(153, 81, 93);
+    padding-top: 15px;
 }
 
 .education{
