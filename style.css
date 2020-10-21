@@ -13,7 +13,7 @@ body {
         /* justify-content: center; */
         grid-template-columns: auto auto auto auto auto auto;
         grid-gap: 15px;
-        grid-auto-rows: minmax(200px, auto);
+        grid-auto-rows: 200px 200px 200px 200px 200px 80px;
         grid-auto-flow:dense;
         padding: 10px;
     }}
@@ -119,26 +119,50 @@ body {
 .grid-item-2{
     background-image: url("images/card_lnfy.png")
 }
+.grid-item-2:hover{
+    background-image: url("images/card_lnfy_hover.png")
+}
 .grid-item-3{
     background-image: url("images/card_wili.png");
+}
+.grid-item-3:hover{
+    background-image: url("images/card_wili_hover.png");
 }
 .grid-item-4{
     background-image: url("images/card_xmas.png");
 }
+.grid-item-4:hover{
+    background-image: url("images/card_xmas_hover.png");
+}
 .grid-item-5{
     background-image: url("images/card_ftc.png");
+}
+.grid-item-5:hover{
+    background-image: url("images/card_ftc_hover.png");
 }
 .grid-item-6{
     background-image: url("images/card_huli.png");
 }
+.grid-item-6:hover{
+    background-image: url("images/card_huli_hover.png");
+}
 .grid-item-7{
     background-image: url("images/card_tgthr.png");
+}
+.grid-item-7:hover{
+    background-image: url("images/card_tgthr_hover.png");
 }
 .grid-item-8{
     background-image: url("images/card_mp.png");
 }
+.grid-item-8:hover{
+    background-image: url("images/card_mp_hover.png");
+}
 .grid-item-9{
     background-image: url("images/card_val.png");
+}
+.grid-item-9:hover{
+    background-image: url("images/card_val_hover.png");
 }
 
 
@@ -168,6 +192,7 @@ footer{
 .nav:hover{
     font-style: italic;
     color: lightpink;
+    cursor: pointer;
 }
 
 /* #spacer{
@@ -212,8 +237,8 @@ a{
 .project{
     display: table;
     padding: 7px;
-    background-color: lightpink;
-    color:white;
+    background-color: white;
+    color:black;
     font-weight: 300;
     font-size: 20px;
     text-align: center;
@@ -223,8 +248,8 @@ a{
 .category{
     display: table;
     padding: 5px;
-    background-color: lightpink;
-    color:white;
+    background-color: white;
+    color:black;
     font-weight: 300;
     font-size: 16px;
     font-style: italic;
@@ -233,6 +258,7 @@ a{
 }
 
 .cardTitle{
+    /* opacity: 0; */
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -283,5 +309,14 @@ h5{
         background-repeat: no-repeat;
         background-position: center;
         justify-content: flex-end;
+    }
+    .category{
+        background-color: lightpink;
+        color:white;
+    }
+
+    .project{
+        background-color: lightpink;
+        color:white;
     }
 }
