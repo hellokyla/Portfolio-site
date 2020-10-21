@@ -166,51 +166,64 @@ body {
 
 .resumeProfile{
     display: grid;
-    width: 750px;
+    width: 650px;
     height: 300px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: .25fr 1fr 1fr;
     grid-template-areas: 
-    "space space space"
-    "Title Title proPic"
-    "downLoad downLoad proPic" ;
+    "space space"
+    "Title proPic"
+    "downLoad proPic" ;
 }
 
 #pic{
     display: grid;
     grid-area: proPic;
-    background-color: blue;
+    /* background-color: blue; */
     justify-content: center;
     align-items: center;
 }
+
 #name{
     grid-area: Title;
-    background-color: coral;
+    display: grid;
+    /* background-color: coral; */
+    justify-content: right;
+    align-items: end;
 }
 
 #download{
     grid-area: downLoad;
-    background-color: darkgreen;
-    /* display: grid; */
+    display: grid;
+    /* background-color: darkgreen; */
+    justify-content: end;
     align-items: center;
+
+}
+
+#download button{
     justify-content: right;
 }
 
+.intro{
+    background-color: darkgrey;
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-columns: 550px 250px;
+    grid-template-areas: 
+    "summary skills";
+}
 
-/* .resumeInfo{
-    margin: 0 auto;
+#sum{
+    display: grid;
+    grid-area: summary;
 }
-.resumeInfo #profile{
-    margin:15px;
-    grid-area: proPic;
+
+#skills{
+    display: grid;
+    grid-area: skills;
 }
-.resumeInfo .resumeName{
-    grid-area: name;
-}
-.resumeInfo .mainButton{
-    margin: 0 auto;
-    grid-area: button;
-}*/
 
 .spacer{
     grid-area: space;
@@ -289,6 +302,38 @@ h2{
     margin-bottom: 10px;
 }
 
+h4{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18pt;
+}
+
+h5{
+    font-weight: 300;
+    text-transform: initial;
+    font-size: 20px;
+    text-align: center;
+}
+
+h6{
+    display: table;
+    padding: 7px;
+    background-color: white;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    font-weight: 100;
+    font-size: 18pt;
+}
+
+.grid-item h6{
+    position: absolute;
+    float: right;
+}
+
 .project{
     display: table;
     padding: 7px;
@@ -323,26 +368,9 @@ h2{
     margin: 5px;
 }
 
-h6{
-    display: table;
-    padding: 7px;
-    background-color: white;
-    font-weight: 100;
-    font-size: 20px;
-    text-align: center;
-}
 
-.grid-item h6{
-    position: absolute;
-    float: right;
-}
 
-h5{
-    font-weight: 300;
-    text-transform: initial;
-    font-size: 20px;
-    text-align: center;
-}
+
 
 a{
     text-decoration: none;
