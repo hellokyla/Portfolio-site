@@ -241,7 +241,7 @@ body {
 
 .projects{
     grid-area: projects;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .25fr 2fr;
@@ -252,18 +252,21 @@ body {
 }
 .sectionTitle{
     grid-area: title;
-    background-color: purple;
+    /* background-color: purple; */
     display: grid;
     justify-content: start;
     align-items: start;
 }
 .col1{
     grid-area: col1;
-    background-color: pink;
+    /* background-color: pink; */
+    padding-top: 15px;
 }
 .col2{
     grid-area: col2;
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 .experience{
@@ -397,7 +400,7 @@ h3{
 
 h4{
     font-weight: 500;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 12pt;
     padding: 2px;
     margin: 2px;
