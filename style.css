@@ -219,27 +219,26 @@ body {
 }
 
 .intro{
-    background-color: darkgrey;
+    background-color: rgb(197, 197, 197);
     grid-area: intro;
     position: static;
-    display:grid;
-    width: 100%;
-    height: 300px;
+    display: grid;
+    width: full-width;
+    height: fit-content;
     grid-template-columns: 550px 250px;
     grid-template-areas: 
     "summary skills";
+    padding: 15px;
 }
 
 #sum{
     display: grid;
     grid-area: summary;
-    padding: 5px;
 }
 
 #skills{
     display: grid;
     grid-area: skills;
-    padding: 5px;
 }
 
 .spacer{
@@ -249,8 +248,32 @@ body {
 .projects{
     grid-area: projects;
     background-color: darkgreen;
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 50px 300px;
+    grid-template-areas: 
+    "title title"
+    "col1 col2";
+    padding: 15px;
 }
 
+.sectionTitle{
+    grid-area: title;
+    background-color: purple;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+}
+
+.col1{
+    grid-area: col1;
+    background-color: pink;
+}
+
+.col2{
+    grid-area: col2;
+    background-color: fuchsia;
+}
 .experience{
     grid-area: exper;
     background-color: green;
@@ -339,10 +362,23 @@ h2{
     margin-bottom: 10px;
 }
 
+h3{
+    display: table;
+    padding: 7px;
+    background-color: white;
+    color:black;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
 h4{
     font-weight: 500;
     text-transform: capitalize;
     font-size: 12pt;
+    padding: 2px;
+    margin: 2px;
 }
 
 h5{
@@ -364,6 +400,7 @@ h6{
 p{
     font-weight: 100;
     font-size: 12pt;
+    margin: 2px;
 }
 
 .grid-item h6{
