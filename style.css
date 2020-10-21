@@ -175,7 +175,7 @@ body {
     "ed"
     "other";
 }
-
+/* why is this grid section not centered? */
 .resumeProfile{
     grid-area: profile;
     display: grid;
@@ -188,7 +188,9 @@ body {
     "Title proPic"
     "downLoad proPic" ;
 }
-
+.spacer{
+    grid-area: space;
+}
 #pic{
     display: grid;
     grid-area: proPic;
@@ -196,7 +198,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 #name{
     grid-area: Title;
     display: grid;
@@ -204,7 +205,6 @@ body {
     justify-content: right;
     align-items: end;
 }
-
 #download{
     grid-area: downLoad;
     display: grid;
@@ -213,7 +213,6 @@ body {
     align-items: center;
 
 }
-
 #download button{
     justify-content: right;
 }
@@ -230,33 +229,27 @@ body {
     "summary skills";
     padding: 15px;
 }
-
 #sum{
     display: grid;
     grid-area: summary;
 }
-
 #skills{
     display: grid;
     grid-area: skills;
 }
 
-.spacer{
-    grid-area: space;
-}
 
 .projects{
     grid-area: projects;
     background-color: darkgreen;
     display:grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 50px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .25fr 2fr;
     grid-template-areas: 
     "title title"
     "col1 col2";
     padding: 15px;
 }
-
 .sectionTitle{
     grid-area: title;
     background-color: purple;
@@ -264,19 +257,33 @@ body {
     justify-content: start;
     align-items: start;
 }
-
 .col1{
     grid-area: col1;
     background-color: pink;
 }
-
 .col2{
     grid-area: col2;
     background-color: fuchsia;
 }
+
 .experience{
     grid-area: exper;
     background-color: green;
+    display: grid;
+    grid-template-rows: .25fr 1fr 1fr;
+    grid-template-areas: 
+    "title"
+     "job1"
+     "job2";
+    padding: 15px;
+}
+.job1{
+    grid-area: job1;
+    background-color: pink;
+}
+.job2{
+    grid-area: job2;
+    background-color: rgb(153, 81, 93);
 }
 
 .education{
