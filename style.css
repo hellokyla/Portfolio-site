@@ -176,6 +176,7 @@ body {
     "ed"
     "other";
 }
+
 /* why is this grid section not centered? */
 .resumeProfile{
     grid-area: profile;
