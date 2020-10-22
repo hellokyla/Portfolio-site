@@ -167,7 +167,7 @@ body {
 #resumePage{
     display: grid;
     width: 100%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr .175fr;
     grid-template-areas: 
     "profile"
     "intro"
@@ -225,17 +225,16 @@ body {
     display: grid;
     width: full-width;
     height: fit-content;
-    grid-template-columns: 550px 250px;
+    grid-template-columns: 2fr 1.25fr;
     grid-template-areas: 
     "summary skills";
     padding: 15px;
 }
 #sum{
-    display: grid;
     grid-area: summary;
+    padding-right: 20px;
 }
 #skills{
-    display: grid;
     grid-area: skills;
 }
 
@@ -314,9 +313,15 @@ body {
 
 .other{
     grid-area: other;
-    background-color: rgb(92, 150, 92);
+    /* background-color: rgb(92, 150, 92); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
+.other button{
+    margin: 0 auto;
+}
 /* --------------------------NAVIGATION-------------------------- */
 
 footer{
@@ -470,7 +475,20 @@ p{
     margin: 5px;
 }
 
-
+.mainButton{
+    display: table;
+    padding: 12px 30px 12px 30px;
+    background-color: white;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 12px lightgrey;
+    border: none;
+    }
 
 
 
