@@ -509,11 +509,9 @@ a{
     header{
         justify-content: space-evenly;
     }
-
     footer{
         justify-content: space-evenly;
     }
-    
     .grid-layout{
         display: grid;
         grid-template-columns: auto auto;
@@ -536,7 +534,6 @@ a{
         background-color: lightpink;
         color:white;
     }
-
     .project{
         background-color: lightpink;
         color:white;
