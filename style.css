@@ -546,11 +546,11 @@ a{
         visibility: hidden;
     }
 /* ----------MOBILE - RESUME PAGE---------- */
-    .resumeProfile{
-        grid-area: profile;
-        display: grid;
-        width:100%;
-        height: fit-content;
+   
+#resumePage{
+    grid-template-rows: .4fr .4fr .7fr .5fr .2fr .15fr;
+}
+.resumeProfile{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 85px .25fr .1fr .1fr;
         grid-template-areas: 
@@ -577,5 +577,19 @@ a{
         grid-gap: 10px;
     }
 
+    .projects{
+        grid-template-columns: .05fr 1fr .05fr;
+        grid-template-rows: .075fr .5fr .5fr;
+        grid-template-areas: 
+        "blank1 title blank2"
+        "blank1 col1 blank2"
+        "blank1 col2 blank2";
+    }
+    .col1{
+        padding: 0px;
+    }
+    .col2{
+        padding: 0px;
+    }
 
 }
