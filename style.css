@@ -167,7 +167,7 @@ body {
 #resumePage{
     display: grid;
     width: 100%;
-    grid-template-rows: 1fr .5fr .8fr 1.125fr .2fr .175fr;
+    grid-template-rows: .85fr .5fr .8fr 1.125fr .2fr .175fr;
     grid-template-areas: 
     "profile"
     "intro"
@@ -181,16 +181,17 @@ body {
 .resumeProfile{
     grid-area: profile;
     display: grid;
-    width: 650px;
-    height: 300px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: .25fr 1fr 1fr;
+    /* width: 650px;
+    height: 300px; */
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: .25fr .5fr .5fr;
     grid-template-areas: 
-    "space space"
-    "Title proPic"
-    "downLoad proPic" ;
+    "blank space space blank2"
+    "blank3 Title proPic blank4"
+    "blank5 downLoad proPic blank6" ;
+
 }
-.spacer{
+.spacer2{
     grid-area: space;
 }
 #pic{
@@ -199,6 +200,7 @@ body {
     /* background-color: blue; */
     justify-content: center;
     align-items: center;
+    width: 300px;
 }
 #name{
     grid-area: Title;
@@ -206,6 +208,7 @@ body {
     /* background-color: coral; */
     justify-content: right;
     align-items: end;
+    width: 300px;
 }
 #download{
     grid-area: downLoad;
@@ -226,9 +229,9 @@ body {
     display: grid;
     width: full-width;
     height: fit-content;
-    grid-template-columns: 2fr 1.25fr;
+    grid-template-columns: 1fr 2fr 1.25fr 1fr;
     grid-template-areas: 
-    "summary skills";
+    "blank summary skills blank2";
     padding: 15px;
 }
 #sum{
@@ -238,6 +241,10 @@ body {
 #skills{
     grid-area: skills;
 }
+/* #blank1{
+    grid-area: blank;
+    grid-area: blank2;
+} */
 
 
 .projects{
@@ -319,7 +326,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .other button{
     margin: 0 auto;
 }
@@ -555,4 +561,47 @@ a{
     footer{
         visibility: hidden;
     }
+/* resume page ----test---- */
+    .resumeProfile{
+        grid-area: profile;
+        display: grid;
+        grid-template-rows: 85px .25fr .1fr .1fr;
+        grid-template-areas: 
+        "space"
+        "proPic"
+        "Title"
+        "downLoad";
+    
+    }
+    .spacer2{
+        grid-area: space;
+        background-color: mediumpurple;
+    }
+    #pic{
+        display: grid;
+        grid-area: proPic;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    #name{
+        grid-area: Title;
+        display: grid;
+        background-color: coral;
+        justify-content: center;
+        align-items: start;
+        width: 300px;
+    }
+    #download{
+        grid-area: downLoad;
+        display: grid;
+        background-color: darkgreen;
+        justify-content: center;
+        align-items: start;
+    
+    }
+    /* #download button{
+        justify-content: right;
+    } */
 }
