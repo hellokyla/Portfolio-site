@@ -241,21 +241,17 @@ body {
 #skills{
     grid-area: skills;
 }
-/* #blank1{
-    grid-area: blank;
-    grid-area: blank2;
-} */
 
 
 .projects{
     grid-area: projects;
     /* background-color: darkgreen; */
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .25fr 1fr 1fr .25fr;
     grid-template-rows: .25fr 2fr;
     grid-template-areas: 
-    "title title"
-    "col1 col2";
+    "blank1 title title blank2"
+    "blank1 col1 col2 blank2";
     padding: 15px;
 }
 .sectionTitle{
@@ -281,11 +277,12 @@ body {
     grid-area: exper;
     background-color: green;
     display: grid;
+    grid-template-columns: .25fr 2fr .25fr;
     grid-template-rows: .25fr 1fr 1fr;
     grid-template-areas: 
-    "title"
-     "job1"
-     "job2";
+    "blank1 title blank2"
+     "blank1 job1 blank2"
+     "blank1 job2 blank2";
     padding: 15px;
 }
 .job1{
@@ -303,11 +300,12 @@ body {
     grid-area: ed;
     background-color: rgb(64, 160, 184);
     display: grid;
+    grid-template-columns: .25fr 2fr .25fr;
     grid-template-rows: .25fr 1fr 1fr;
     grid-template-areas: 
-    "title"
-     "school1"
-     "school2";
+    "blank1 title blank2"
+     "blank1 school1 blank2"
+     "blank1 school2 blank2";
     padding: 15px;
 }
 .school1{
@@ -561,47 +559,27 @@ a{
     footer{
         visibility: hidden;
     }
-/* resume page ----test---- */
+/* ----------MOBILE - RESUME PAGE---------- */
     .resumeProfile{
         grid-area: profile;
         display: grid;
+        width:100%;
+        height: fit-content;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 85px .25fr .1fr .1fr;
         grid-template-areas: 
-        "space"
-        "proPic"
-        "Title"
-        "downLoad";
-    
-    }
-    .spacer2{
-        grid-area: space;
-        background-color: mediumpurple;
-    }
-    #pic{
-        display: grid;
-        grid-area: proPic;
-        background-color: blue;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
+        "blank1 space blank2"
+        "blank1 proPic blank2"
+        "blank1 Title blank2"
+        "blank1 downLoad blank2";
     }
     #name{
-        grid-area: Title;
-        display: grid;
-        background-color: coral;
         justify-content: center;
         align-items: start;
-        width: 300px;
     }
     #download{
-        grid-area: downLoad;
-        display: grid;
-        background-color: darkgreen;
         justify-content: center;
         align-items: start;
-    
     }
-    /* #download button{
-        justify-content: right;
-    } */
+
 }
