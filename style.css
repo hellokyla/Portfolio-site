@@ -242,7 +242,6 @@ body {
     grid-area: skills;
 }
 
-
 .projects{
     grid-area: projects;
     /* background-color: darkgreen; */
@@ -548,7 +547,7 @@ a{
 /* ----------MOBILE - RESUME PAGE---------- */
    
 #resumePage{
-    grid-template-rows: .4fr .4fr .7fr .5fr .2fr .15fr;
+    grid-template-rows: .4fr .4fr .7fr .44fr .2fr .15fr;
 }
 .resumeProfile{
         grid-template-columns: 1fr 1fr 1fr;
@@ -576,7 +575,9 @@ a{
         "blank skills blank2";
         grid-gap: 10px;
     }
-
+    .sectionTitle{
+        padding-bottom: 15px;
+    }
     .projects{
         grid-template-columns: .05fr 1fr .05fr;
         grid-template-rows: .075fr .5fr .5fr;
@@ -591,5 +592,20 @@ a{
     .col2{
         padding: 0px;
     }
+    .experience{
+        grid-template-columns: .05fr 1fr .05fr;
+        grid-template-rows: .075fr 1fr .5fr;
+    }
+    .job1{
+        background-color: pink;
+        padding-bottom: 15px;
+    }
+    .job2{
+        background-color: rgb(153, 81, 93);
+        padding: 0px;
+    }
 
+    .school1{
+        padding-bottom: 15px;
+    }
 }
