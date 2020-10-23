@@ -177,7 +177,7 @@ body {
     "other";
 }
 
-/* why is this grid section not centered? */
+
 .resumeProfile{
     grid-area: profile;
     display: grid;
@@ -262,19 +262,17 @@ body {
 }
 .col1{
     grid-area: col1;
-    /* background-color: pink; */
     padding-top: 15px;
 }
 .col2{
     grid-area: col2;
-    /* background-color: fuchsia; */
     padding-left: 20px;
     padding-top: 15px;
 }
 
 .experience{
     grid-area: exper;
-    background-color: green;
+    /* background-color: green; */
     display: grid;
     grid-template-columns: .25fr 2fr .25fr;
     grid-template-rows: .25fr 1fr 1fr;
@@ -286,18 +284,18 @@ body {
 }
 .job1{
     grid-area: job1;
-    background-color: pink;
+    /* background-color: pink; */
     padding-top: 15px;
 }
 .job2{
     grid-area: job2;
-    background-color: rgb(153, 81, 93);
+    /* background-color: rgb(153, 81, 93); */
     padding-top: 15px;
 }
 
 .education{
     grid-area: ed;
-    background-color: rgb(64, 160, 184);
+    /* background-color: rgb(64, 160, 184); */
     display: grid;
     grid-template-columns: .25fr 2fr .25fr;
     grid-template-rows: .25fr 1fr 1fr;
@@ -309,11 +307,11 @@ body {
 }
 .school1{
     grid-area: school1;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .school2{
     grid-area: school2;
-    background-color: rgb(153, 81, 93);
+    /* background-color: rgb(153, 81, 93); */
 }
 
 .other{
