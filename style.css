@@ -534,9 +534,9 @@ a{
         color:white;
     }
 
-    footer{
+    /* footer{
         visibility: hidden;
-    }
+    } */
 /* ----------MOBILE - RESUME PAGE---------- */
    
 #resumePage{
@@ -588,11 +588,9 @@ a{
         grid-template-rows: .075fr 1fr .5fr;
     }
     .job1{
-        background-color: pink;
         padding-bottom: 15px;
     }
     .job2{
-        background-color: rgb(153, 81, 93);
         padding: 0px;
     }
 
