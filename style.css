@@ -506,6 +506,14 @@ a{
 /* -------------------MOBILE---------------------- */
 
 @media(max-width:600px){
+    header{
+        justify-content: space-evenly;
+    }
+
+    footer{
+        justify-content: space-evenly;
+    }
+    
     .grid-layout{
         display: grid;
         grid-template-columns: auto auto;
