@@ -18,6 +18,7 @@ body {
     background-position: center;
     min-width: 300px;
     max-width: 350px;
+    transition: all 0.4s ease-in-out;
 }
 
 /* ---------------------HOME - ABOUT CARD------------------------- */
@@ -94,11 +95,10 @@ body {
 /* ----------------------HOME - CARD IMAGES----------------------- */
 
 .grid-item-2{
-    background-image: url("images/card_lnfy.png")
+    background-image: url("images/card_lnfy.png");
 }
 .grid-item-2:hover{
     background-image: url("images/card_lnfy_hover.png");
-    transition: all 0.4s ease-out;
 }
 .grid-item-3{
     background-image: url("images/card_wili.png");
