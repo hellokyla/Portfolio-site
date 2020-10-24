@@ -97,7 +97,8 @@ body {
     background-image: url("images/card_lnfy.png")
 }
 .grid-item-2:hover{
-    background-image: url("images/card_lnfy_hover.png")
+    background-image: url("images/card_lnfy_hover.png");
+    transition: all 0.4s ease-out;
 }
 .grid-item-3{
     background-image: url("images/card_wili.png");
@@ -177,7 +178,6 @@ body {
     "other";
 }
 
-
 .resumeProfile{
     grid-area: profile;
     display: grid;
@@ -227,7 +227,7 @@ body {
     display: grid;
     width: full-width;
     height: fit-content;
-    grid-template-columns: 1fr 2fr 1.25fr 1fr;
+    grid-template-columns: .25fr 2fr 1fr .25fr;
     grid-template-areas: 
     "blank summary skills blank2";
     padding: 15px;
