@@ -21,8 +21,6 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-
-
 /* ---------------------HOME - ABOUT CARD------------------------- */
 
 .span-2x6 {
@@ -51,18 +49,6 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-top: 10px;
-}
-
-.grid-item-1 h5{
-    margin-top: 25px;
-    margin-bottom: 5px;
-}
-
-.social{
-    border: none;
-    background-color: transparent;
-    padding: 15px;
-    cursor: pointer;
 }
 
 /* --------------------HOME - PROJECT CARDS---------------------- */
@@ -326,16 +312,12 @@ body {
 .other{
     grid-area: other;
     /* background-color: rgb(92, 150, 92); */
-    display: block;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
 .other button{
     margin: 0 auto;
-}
-.other .spacer2{
-    height: 50px;
-    visibility: hidden;
 }
 /* --------------------------NAVIGATION-------------------------- */
 
