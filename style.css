@@ -209,6 +209,8 @@ body {
     "blank space space blank2"
     "blank3 Title proPic blank4"
     "blank5 downLoad proPic blank6" ;
+    grid-gap: 15px;
+    margin-bottom: 15px;
 
 }
 .spacer2{
