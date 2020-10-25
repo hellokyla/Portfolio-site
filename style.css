@@ -32,12 +32,13 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    /* min-height: 600px; */
     /* max-width: 350px; */
 }
 
 #profile{
-    width: 200px;
-    height: 200px;
+    max-width: 450px;
+    width: 75%;
     border-radius: 50%;
 }
 
