@@ -22,9 +22,82 @@ body {
 }
 
 .spacerMobile{
+    display: none;
     visibility: hidden;
 }
 
+/* --------------------------NAVIGATION-------------------------- */
+
+footer{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:0;
+    bottom:0;
+    height: 75px;
+    width: 100%;
+    /* min-width: 1050px; */
+    background-color: white;
+    box-shadow: 0px -3px 12px grey;
+    visibility: visible;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:0;
+    top:0;
+    height: 55px;
+    width: 100%;
+    /* min-width: 1050px; */
+    background-color: white;
+    box-shadow: 0px 3px 12px grey;
+    visibility: visible;
+}
+
+.headerMobile{
+    position: fixed;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    left:0;
+    top:0;
+    height: 55px;
+    width: 100%;
+    /* min-width: 1050px; */
+    background-color: white;
+    box-shadow: 0px 3px 12px grey;
+    visibility: hidden;
+}
+
+.dropDown{
+    display: grid;
+
+}
+.spacer{
+    flex-direction: column;
+    height:70px;
+    width: 100%;
+    visibility: hidden;
+}
+.nav{
+    display: flex;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav:hover{
+    font-style: italic;
+    color: lightpink;
+    cursor: pointer;
+}
 
 
 /* ---------------------HOME - ABOUT CARD------------------------- */
@@ -351,79 +424,6 @@ body {
     height: 50px;
     visibility: hidden;
 }
-/* --------------------------NAVIGATION-------------------------- */
-
-footer{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left:0;
-    bottom:0;
-    height: 75px;
-    width: 100%;
-    /* min-width: 1050px; */
-    background-color: white;
-    box-shadow: 0px -3px 12px grey;
-    visibility: visible;
-}
-
-header{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left:0;
-    top:0;
-    height: 55px;
-    width: 100%;
-    /* min-width: 1050px; */
-    background-color: white;
-    box-shadow: 0px 3px 12px grey;
-    visibility: visible;
-}
-
-.headerMobile{
-    position: fixed;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    left:0;
-    top:0;
-    height: 55px;
-    width: 100%;
-    /* min-width: 1050px; */
-    background-color: white;
-    box-shadow: 0px 3px 12px grey;
-    visibility: hidden;
-}
-
-.dropDown{
-    display: grid;
-
-}
-.spacer{
-    flex-direction: column;
-    height:70px;
-    width: 100%;
-    visibility: hidden;
-}
-.nav{
-    display: flex;
-    padding: 15px;
-    color: black;
-    background-color: white;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav:hover{
-    font-style: italic;
-    color: lightpink;
-    cursor: pointer;
-}
-
 /* -------------------TEXT/FONT FORMATTING---------------------- */
 
 h1{
@@ -577,6 +577,8 @@ a{
     }
     .spacerMobile{
         visibility: visible;
+        display: grid;
+        /* height: 55px; */
     }
     footer{
         justify-content: space-evenly;
