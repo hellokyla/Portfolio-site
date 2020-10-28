@@ -377,6 +377,20 @@ header{
     box-shadow: 0px 3px 12px grey;
 }
 
+.headerMobile{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:0;
+    top:0;
+    height: 55px;
+    width: 100%;
+    /* min-width: 1050px; */
+    background-color: white;
+    box-shadow: 0px 3px 12px grey;
+    visibility: hidden;
+}
 .spacer{
     flex-direction: column;
     height:70px;
@@ -502,6 +516,7 @@ p{
     margin-bottom: 10px;
     box-shadow: 0px 3px 12px lightgrey;
     border: none;
+    border-radius: 4px;
     }
 a{
     text-decoration: none;
