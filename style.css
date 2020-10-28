@@ -21,6 +21,10 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
+.spacerMobile{
+    visibility: hidden;
+}
+
 
 
 /* ---------------------HOME - ABOUT CARD------------------------- */
@@ -361,6 +365,7 @@ footer{
     /* min-width: 1050px; */
     background-color: white;
     box-shadow: 0px -3px 12px grey;
+    visibility: visible;
 }
 
 header{
@@ -561,8 +566,13 @@ a{
         visibility: visible;
         justify-content: center;
     }
+    .spacerMobile{
+        visibility: visible;
+    }
+
     footer{
         justify-content: space-evenly;
+        visibility: hidden;
     }
     .grid-layout{
         display: grid;
@@ -573,7 +583,7 @@ a{
         margin-bottom: 80px;
         grid-template-columns: .5fr .5fr;
         grid-gap: 15px;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: .2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         /* grid-template-rows: minmax(200px, auto); */
         grid-auto-flow: column dense;
         /* padding: 10px; */
