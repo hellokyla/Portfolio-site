@@ -429,6 +429,8 @@ header{
 h1{
     display: table;
     padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: white;
     font-weight: 100;
     font-size: 50px;
@@ -573,13 +575,24 @@ a{
     }
     .headerMobile{
         visibility: visible;
-        justify-content: center;
+        justify-content: start;
     }
     .spacerMobile{
         visibility: visible;
         display: grid;
         /* height: 55px; */
     }
+
+    .burger{
+        margin: 15px;
+        opacity: 1;
+    }
+
+    .close{
+        margin: 15px;
+        opacity: 0;
+    }
+
     footer{
         justify-content: space-evenly;
         visibility: hidden;
