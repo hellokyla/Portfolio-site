@@ -266,6 +266,7 @@ header{
 
 #resumePage{
     display: grid;
+    margin: 0px;
     width: 100%;
     grid-template-rows: .8fr .5fr .7fr .8fr .2fr .175fr;
     grid-template-areas: 
