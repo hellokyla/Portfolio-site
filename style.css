@@ -295,7 +295,7 @@ header{
     grid-area: space;
 }
 #pic{
-    display: grid;
+    display: flex;
     grid-area: proPic;
     /* background-color: blue; */
     justify-content: center;
@@ -574,15 +574,14 @@ a{
         /* justify-content: space-evenly; */
         visibility: hidden;
     }
-    .headerMobile{
+    /* .headerMobile{
         visibility: visible;
         justify-content: start;
     }
     .spacerMobile{
         visibility: visible;
         display: grid;
-        /* height: 55px; */
-    }
+    } */
 
     .burger{
         margin: 15px;
@@ -596,7 +595,7 @@ a{
 
     footer{
         justify-content: space-evenly;
-        visibility: hidden;
+        visibility: visible;
     }
     .grid-layout{
         display: grid;
@@ -652,6 +651,10 @@ a{
         justify-content: center;
         align-items: start;
     }
+    /* #pic{
+        display: grid;
+        justify-content: center;
+    } */
     #download{
         justify-content: center;
         align-items: start;
