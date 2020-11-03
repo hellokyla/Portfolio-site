@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-width: 300px;
+    /* min-width: 300px; */
     /* max-width: 350px; */
     transition: all 0.3s ease-in-out;
 }
@@ -616,7 +616,9 @@ a{
         box-shadow: 0px -3px 12px gray;
     }
 
-
+    h5{
+        margin: 0px;
+    }
     .grid-layout{
         display: grid;
         height: auto;
