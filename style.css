@@ -580,6 +580,7 @@ a{
     header{
         /* justify-content: space-evenly; */
         visibility: hidden;
+        display: none;
     }
     /* .headerMobile{
         visibility: visible;
@@ -590,14 +591,14 @@ a{
         display: grid;
     } */
 
-    .burger{
+    /* .burger{
         margin: 15px;
         opacity: 1;
     }
 
     .close{
         margin: 15px;
-        opacity: 0;
+        opacity: 0; */
     }
     .subPage{
         visibility: visible;
@@ -659,7 +660,7 @@ a{
 }
 .resumeProfile{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 85px .25fr .1fr .1fr;
+        grid-template-rows: 15px .25fr .1fr .1fr;
         grid-template-areas: 
         "blank1 space blank2"
         "blank1 proPic blank2"
@@ -715,5 +716,8 @@ a{
 
     .school1{
         padding-bottom: 15px;
+    }
+   .other .spacer2{
+        height: 200px;
     }
 }
