@@ -558,7 +558,10 @@ a{
         grid-auto-flow: dense;
         padding: 10px;
     }
+}
 
+.subPage{
+    visibility: hidden;
 }
 
 /* @media(min-height:1200px){
@@ -570,6 +573,7 @@ a{
 /* -------------------MOBILE---------------------- */
 
 @media(max-width:600px){
+
     header{
         /* justify-content: space-evenly; */
         visibility: hidden;
@@ -594,8 +598,15 @@ a{
     }
 
     footer{
-        justify-content: space-evenly;
+        display: block;
+        justify-content: center;
         visibility: visible;
+        position: static;
+        bottom: 0px;
+        flex-direction: row;
+        padding: 10px;
+        height: fit-content;
+        margin-top: auto;
     }
     .grid-layout{
         display: grid;
