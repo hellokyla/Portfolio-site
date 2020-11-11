@@ -99,7 +99,6 @@ header{
     font-style: italic;
     color: lightpink;
     cursor: pointer;
-    
 }
 
 .projectHead .nav{
@@ -544,6 +543,9 @@ p{
     border-radius: 4px;
     }
 a{
+    text-decoration: none;
+}
+a:hover{
     text-decoration: none;
 }
 /* -------------------MEDIA QUERIES---------------------- */
