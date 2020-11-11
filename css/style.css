@@ -449,9 +449,17 @@ header{
     padding: 20px;
 }
 
-#downloadCS{
+/* #downloadCS{
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+} */
+.casePDF{
+    margin: 0 auto;
+}
+
+.XDprototype{
+    margin: 0 auto;
 }
 /* -------------------TEXT/FONT FORMATTING---------------------- */
 
