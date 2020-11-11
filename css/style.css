@@ -28,9 +28,15 @@ body {
     visibility: hidden;
 }
 
+.row{
+    margin-bottom: 25px;
+}
+
 .CSrow{
     margin-bottom: 70px;
 }
+
+
 
 /* --------------------------NAVIGATION-------------------------- */
 
@@ -85,7 +91,7 @@ header{
 }
 .spacer{
     flex-direction: column;
-    height:70px;
+    height:100px;
     width: 100%;
     visibility: hidden;
 }
@@ -318,7 +324,7 @@ header{
     /* background-color: coral; */
     justify-content: right;
     align-items: end;
-    width: 300px;
+    /* width: 300px; */
 }
 #download{
     grid-area: downLoad;
