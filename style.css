@@ -431,6 +431,13 @@ header{
     height: 50px;
     visibility: hidden;
 }
+
+/* -------------------PROJECT PAGES---------------------- */
+
+.highlightSection{
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+}
 /* -------------------TEXT/FONT FORMATTING---------------------- */
 
 h1{
