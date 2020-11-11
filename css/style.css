@@ -467,6 +467,10 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
     }
+.SectionHeader{
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
 h2{
     display: table;
     padding: 7px 14px 7px 7px;
@@ -494,6 +498,11 @@ h4{
     font-size: 12pt;
     padding: 2px;
     margin: 2px;
+}
+
+.quoted{
+    text-transform: capitalize;
+    text-align: center;
 }
 h5{
     font-weight: 100;
