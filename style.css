@@ -28,6 +28,10 @@ body {
     visibility: hidden;
 }
 
+.row{
+    margin-bottom: 70px;
+}
+
 /* --------------------------NAVIGATION-------------------------- */
 
 footer{
@@ -435,8 +439,13 @@ header{
 /* -------------------PROJECT PAGES---------------------- */
 
 .highlightSection{
-    background-color: rgb(197, 197, 197);
+    /* background-color: rgb(197, 197, 197); */
     padding: 20px;
+}
+
+#downloadCS{
+    justify-content: center;
+    align-items: center;
 }
 /* -------------------TEXT/FONT FORMATTING---------------------- */
 
@@ -468,7 +477,7 @@ h3{
     padding: 7px;
     background-color: white;
     color:black;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 20px;
     text-align: center;
     margin: 0px;
@@ -481,11 +490,16 @@ h4{
     margin: 2px;
 }
 h5{
-    font-weight: 300;
-    text-transform: initial;
+    font-weight: 100;
+    /* text-transform: initial; */
     font-size: 20px;
     text-align: center;
 }
+
+h5 .leftJustify{
+    text-align: left;
+}
+
 h6{
     display: table;
     padding: 7px;
@@ -493,6 +507,16 @@ h6{
     font-weight: 100;
     font-size: 20px;
     text-align: center;
+}
+small{
+        display: table;
+        padding: 4px;
+        background-color: white;
+        color:black;
+        font-weight: 100;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 10px;
 }
 p{
     font-weight: 100;
@@ -535,7 +559,7 @@ p{
     margin: 5px;
 }
 .mainButton{
-    display: table;
+    display: block;
     padding: 12px 30px 12px 30px;
     background-color: white;
     font-weight: 100;
@@ -549,6 +573,7 @@ p{
     border: none;
     border-radius: 4px;
     }
+
 a{
     text-decoration: none;
 }
