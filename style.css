@@ -99,6 +99,11 @@ header{
     font-style: italic;
     color: lightpink;
     cursor: pointer;
+    
+}
+
+.projectHead .nav{
+    flex-wrap: nowrap;
 }
 
 
