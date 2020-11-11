@@ -28,7 +28,7 @@ body {
     visibility: hidden;
 }
 
-.row{
+.CSrow{
     margin-bottom: 70px;
 }
 
@@ -204,52 +204,52 @@ header{
 /* ----------------------HOME - CARD IMAGES----------------------- */
 
 .grid-item-2{
-    background-image: url("images/card_lnfy.png");
+    background-image: url("../images/card_lnfy.png");
 }
 .grid-item-2:hover{
-    background-image: url("images/card_lnfy_hover.png");
+    background-image: url("../images/card_lnfy_hover.png");
 }
 .grid-item-3{
-    background-image: url("images/card_wili.png");
+    background-image: url("../images/card_wili.png");
 }
 .grid-item-3:hover{
-    background-image: url("images/card_wili_hover.png");
+    background-image: url("../images/card_wili_hover.png");
 }
 .grid-item-4{
-    background-image: url("images/card_xmas.png");
+    background-image: url("../images/card_xmas.png");
 }
 .grid-item-4:hover{
-    background-image: url("images/card_xmas_hover.png");
+    background-image: url("../images/card_xmas_hover.png");
 }
 .grid-item-5{
-    background-image: url("images/card_ftc.png");
+    background-image: url("../images/card_ftc.png");
 }
 .grid-item-5:hover{
-    background-image: url("images/card_ftc_hover.png");
+    background-image: url("../images/card_ftc_hover.png");
 }
 .grid-item-6{
-    background-image: url("images/card_huli.png");
+    background-image: url("../images/card_huli.png");
 }
 .grid-item-6:hover{
-    background-image: url("images/card_huli_hover.png");
+    background-image: url("../images/card_huli_hover.png");
 }
 .grid-item-7{
-    background-image: url("images/card_tgthr.png");
+    background-image: url("../images/card_tgthr.png");
 }
 .grid-item-7:hover{
-    background-image: url("images/card_tgthr_hover.png");
+    background-image: url("../images/card_tgthr_hover.png");
 }
 .grid-item-8{
-    background-image: url("images/card_mp.png");
+    background-image: url("../images/card_mp.png");
 }
 .grid-item-8:hover{
-    background-image: url("images/card_mp_hover.png");
+    background-image: url("../images/card_mp_hover.png");
 }
 .grid-item-9{
-    background-image: url("images/card_val.png");
+    background-image: url("../images/card_val.png");
 }
 .grid-item-9:hover{
-    background-image: url("images/card_val_hover.png");
+    background-image: url("../images/card_val_hover.png");
 }
 
 /* --------------------------CASE STUDIES-------------------------- */
@@ -496,7 +496,7 @@ h5{
     text-align: center;
 }
 
-h5 .leftJustify{
+.leftJustify{
     text-align: left;
 }
 h6{
