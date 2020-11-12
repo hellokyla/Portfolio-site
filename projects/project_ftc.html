@@ -2,45 +2,44 @@
 <html lang="en">
 <head>
     <!-- Hotjar Tracking Code for https://hellokyla.github.io/Portfolio-site/ -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:2091097,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:2091097,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Personal CSS -->
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
     <!-- Featherlight CSS -->
-    <link href="../css/featherlight.min.css" rel="stylesheet" type="text/css">
-
+        <link href="../css/featherlight.min.css" rel="stylesheet" type="text/css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT97LTCTGB"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT97LTCTGB"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-LT97LTCTGB');
-    </script>
+            gtag('config', 'G-LT97LTCTGB');
+        </script>
     <title>Kyla Beals - FTC Web Redesign</title>
 </head>
+
 <body>
     
     <header class="header projectHead">
         <a href="../index.html"><div class="nav"><h5>work</h5></div></a>
         <div class="nav" data-toggle="modal" data-target="#modalContactForm"><h5>contact</h5></div>
         <a href="../resume.html"><div class="nav"><h5>resume</h5></div></a>
-        <div class="nav"><h5>portfolio graveyard</h5></div>
+        <a href="../portfolio_graveyard.html"><div class="nav"><h5>portfolio graveyard</h5></div></a>
     </header>
 
     <main>
@@ -62,7 +61,7 @@
             </div>
 
            <div class="CSrow">
-            <div id="downloadCS"><button class="mainButton casePDF ftcCS">view process deck</button></div>
+            <a href="../downloads/Case Study_FTC.pdf"><div class="downloadCS"><button class="mainButton casePDF ftcCS">view process deck</button></div></a>
            </div>
 
            <div class="row">
@@ -332,13 +331,13 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 col-sm-12"><button class="mainButton XDprototype">desktop</button></div>
-                <div class="col-md-6 col-sm-12"><button class="mainButton XDprototype">mobile</button></div>
+                <div class="col-md-6 col-sm-12"><a href="https://xd.adobe.com/view/7a7f4da9-8f80-464d-a4c1-8eecc995d34e-2f2c/"><button class="mainButton XDprototype">mobile</button></a></div>
+                <div class="col-md-6 col-sm-12"><a href="https://xd.adobe.com/view/59825053-6ca8-47f2-bd8a-09acb3086fd5-0cd1/"><button class="mainButton XDprototype">desktop</button></a></div>
                </div>
 
         </div>
         
-        <!-- MODAL -->
+    <!---------- CONTACT MODAL ----------->
         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -380,15 +379,9 @@
                 </div>
             </div>
         </div>
-    
-
-<!-- <div class="text-center">
-  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Launch
-    Modal Contact Form</a>
-</div> -->
     </main>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then featherlight, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
     <script src="../js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
