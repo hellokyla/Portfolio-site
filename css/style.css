@@ -126,6 +126,13 @@ header{
 .modal-title{
     margin-left:160px;
 }
+
+.form-control{
+    font-weight: 100;
+    font-size: 12pt;
+    margin: 2px;
+    color: gray;
+}
 /* ---------------------HOME - ABOUT CARD------------------------- */
 
 .span-2x6 {
