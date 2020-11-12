@@ -116,7 +116,12 @@ header{
     flex-wrap: nowrap;
 }
 
+/* -----------MODAL-------------- */
 
+.modal-content{
+    top: 150px;
+    background-color: #f2f2f2;
+}
 /* ---------------------HOME - ABOUT CARD------------------------- */
 
 .span-2x6 {
